@@ -1,0 +1,851 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.20f1 (41c4e627c95f) revision 4310246'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Home Single Language; OS build 19045.2846; Version 2009; 64bit' Language: 'en' Physical Memory: 8032 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.20f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+D:/Project_Ratna Project/NEW PROJECT 2D
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+59639
+Successfully changed project path to: D:/Project_Ratna Project/NEW PROJECT 2D
+D:/Project_Ratna Project/NEW PROJECT 2D
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 1944.59 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.20f1 (41c4e627c95f)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.20f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Project_Ratna Project/NEW PROJECT 2D/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1050 Ti (ID=0x1c8c)
+    Vendor:   
+    VRAM:     4018 MB
+    Driver:   27.21.14.5749
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.20f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.20f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.20f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56304
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.20f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.006131 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 106.51 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  4.422 seconds
+Domain Reload Profiling:
+	ReloadAssembly (4422ms)
+		BeginReloadAssembly (144ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (963ms)
+			LoadAssemblies (142ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (185ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (31ms)
+			SetupLoadedEditorAssemblies (661ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (107ms)
+				BeforeProcessingInitializeOnLoad (395ms)
+				ProcessInitializeOnLoadAttributes (105ms)
+				ProcessInitializeOnLoadMethodAttributes (51ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.181055 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.93 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.295 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2298ms)
+		BeginReloadAssembly (158ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (22ms)
+		EndReloadAssembly (2071ms)
+			LoadAssemblies (1014ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (364ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (52ms)
+			SetupLoadedEditorAssemblies (543ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (71ms)
+				ProcessInitializeOnLoadAttributes (407ms)
+				ProcessInitializeOnLoadMethodAttributes (51ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.33 seconds
+Refreshing native plugins compatible for Editor in 1.39 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2165 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 88.6 MB.
+System memory in use after: 88.7 MB.
+
+Unloading 57 unused Assets to reduce memory usage. Loaded Objects now: 2569.
+Total: 58.407400 ms (FindLiveObjects: 0.213600 ms CreateObjectMapping: 0.077100 ms MarkObjects: 47.739900 ms  DeleteObjects: 10.375200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/Gizmos/Cinemachine/cm_logo_lg.png
+  artifactKey: Guid(860b5967319c4cb43b881e36c33f9424) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gizmos/Cinemachine/cm_logo_lg.png using Guid(860b5967319c4cb43b881e36c33f9424) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '840e7326c693f335fb07938ace2d0873') in 0.414667 seconds 
+  Import took 0.477167 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000440 seconds.
+  path: Assets/Project_R/Object/Bigger/spikeplace_off_01.png
+  artifactKey: Guid(477bb001f9f5ed340a61b46e293e9650) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project_R/Object/Bigger/spikeplace_off_01.png using Guid(477bb001f9f5ed340a61b46e293e9650) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83a91f1b50a0f0a366c304f491383347') in 0.055512 seconds 
+  Import took 0.190056 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000303 seconds.
+  path: Assets/Project_R/Object/Bigger/spikeplace_on_01.png
+  artifactKey: Guid(8aa135688420f534281f496f34988c47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project_R/Object/Bigger/spikeplace_on_01.png using Guid(8aa135688420f534281f496f34988c47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ccfb2b0c96b26ee2324b236a01280096') in 0.095177 seconds 
+  Import took 0.120000 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000312 seconds.
+  path: Assets/Project_R/Object/Bigger/blockkey_yellow_01.png
+  artifactKey: Guid(546e8cec16c19ac43ba6c9686a29f483) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project_R/Object/Bigger/blockkey_yellow_01.png using Guid(546e8cec16c19ac43ba6c9686a29f483) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2526fbd2c35ce66561146fb0c87492c') in 0.043979 seconds 
+  Import took 0.056543 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000353 seconds.
+  path: Assets/Project_R/Object/Bigger/gateblock_top_01.png
+  artifactKey: Guid(bf292180ccf24f84e9f340a707d38ab3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project_R/Object/Bigger/gateblock_top_01.png using Guid(bf292180ccf24f84e9f340a707d38ab3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a61f23e5a3d79366fbe30d6423fd644f') in 0.054097 seconds 
+  Import took 0.070225 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000317 seconds.
+  path: Assets/Project_R/Object/Bigger/dashzone_arrow_off_01.png
+  artifactKey: Guid(0df9a2c9572344b4798736177d5638fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project_R/Object/Bigger/dashzone_arrow_off_01.png using Guid(0df9a2c9572344b4798736177d5638fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9deda366c1be68d7e3b6ac008b248fd') in 0.070308 seconds 
+  Import took 0.073881 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000317 seconds.
+  path: Assets/Project_R/Object/Bigger/dashzone_path_off_01.png
+  artifactKey: Guid(fede3234827bb2f41bcd318df119d15a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project_R/Object/Bigger/dashzone_path_off_01.png using Guid(fede3234827bb2f41bcd318df119d15a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c23d25292b370cd99bfb381ef6d433e6') in 0.075602 seconds 
+  Import took 0.079884 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000285 seconds.
+  path: Assets/Project_R/Object/Bigger/flame_end_01.png
+  artifactKey: Guid(09407ca2f1150504290d6c0ead8e57d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project_R/Object/Bigger/flame_end_01.png using Guid(09407ca2f1150504290d6c0ead8e57d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06b6e754d8181a6ec18c10a43c2d5c64') in 0.077725 seconds 
+  Import took 0.086890 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000344 seconds.
+  path: Assets/Project_R/Object/Bigger/blockkeyhole_on_01.png
+  artifactKey: Guid(7625e41ba8aeb5a46bdc62a201167358) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project_R/Object/Bigger/blockkeyhole_on_01.png using Guid(7625e41ba8aeb5a46bdc62a201167358) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff859ac9d817243512ecc37161c79b33') in 0.172274 seconds 
+  Import took 0.218096 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000296 seconds.
+  path: Assets/Project_R/Object/Bigger/gateblock_left_02.png
+  artifactKey: Guid(1efe72e9abc57f64096c877753b1492a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project_R/Object/Bigger/gateblock_left_02.png using Guid(1efe72e9abc57f64096c877753b1492a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0561a60aa065950fb5a96e3624c0a8d6') in 0.040844 seconds 
+  Import took 0.045816 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000336 seconds.
+  path: Assets/Project_R/Object/Bigger/gate_vertical_01.png
+  artifactKey: Guid(c9165e963dceb8f4e91874dd4ea6b18f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project_R/Object/Bigger/gate_vertical_01.png using Guid(c9165e963dceb8f4e91874dd4ea6b18f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6411534a23e25ceeaf03e86f17fa0eeb') in 0.030500 seconds 
+  Import took 0.034904 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000315 seconds.
+  path: Assets/Project_R/Object/Bigger/gateblock_right_01.png
+  artifactKey: Guid(d37e1979a3c9b354e8f9c97896e22b5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project_R/Object/Bigger/gateblock_right_01.png using Guid(d37e1979a3c9b354e8f9c97896e22b5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c446b3c1c3804125d40be5bd21ede4d') in 0.068237 seconds 
+  Import took 0.098198 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000292 seconds.
+  path: Assets/Project_R/Object/Bigger/gateblock_topleft_01.png
+  artifactKey: Guid(11b831f1a62c5ba4491309ffd65ce07e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project_R/Object/Bigger/gateblock_topleft_01.png using Guid(11b831f1a62c5ba4491309ffd65ce07e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '598a9840f3a416ba99720ed1c3e82e28') in 0.063485 seconds 
+  Import took 0.067656 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000340 seconds.
+  path: Assets/Project_R/Object/Bigger/gateblock_right_02.png
+  artifactKey: Guid(cded1195a117e4a44ad47f94dc60269f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project_R/Object/Bigger/gateblock_right_02.png using Guid(cded1195a117e4a44ad47f94dc60269f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd48f171b721592db6317b03a6d639f2c') in 0.035909 seconds 
+  Import took 0.080189 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000275 seconds.
+  path: Assets/Project_R/Object/Bigger/gate_vertical_02.png
+  artifactKey: Guid(fafeca07d7f6ffd4db2ca9a955d96bf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project_R/Object/Bigger/gate_vertical_02.png using Guid(fafeca07d7f6ffd4db2ca9a955d96bf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b1d04dc2d5f7b1e19c8ddfbff486e41') in 0.076923 seconds 
+  Import took 0.080465 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000341 seconds.
+  path: Assets/Project_R/Object/Bigger/block_yellow_01.png
+  artifactKey: Guid(3324c866f3bc4384ba0c295be2982bbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project_R/Object/Bigger/block_yellow_01.png using Guid(3324c866f3bc4384ba0c295be2982bbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90bde65cd9b090a82924dd68befa81fe') in 0.080379 seconds 
+  Import took 0.083761 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000324 seconds.
+  path: Assets/Project_R/Object/Bigger/gateblock_bottom_02.png
+  artifactKey: Guid(5f1c51aaa29b6bd438e3ac5464ba33eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project_R/Object/Bigger/gateblock_bottom_02.png using Guid(5f1c51aaa29b6bd438e3ac5464ba33eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6828514c53fdf6e777de33b4689da883') in 0.073477 seconds 
+  Import took 0.102188 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000253 seconds.
+  path: Assets/Project_R/Object/Bigger/spike_02.png
+  artifactKey: Guid(e54119bf6a6cae64da5f17ffeba85c1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project_R/Object/Bigger/spike_02.png using Guid(e54119bf6a6cae64da5f17ffeba85c1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e175e48879ed552739bc858a1fa46e0d') in 0.040682 seconds 
+  Import took 0.061943 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000289 seconds.
+  path: Assets/Project_R/Object/Bigger/blockkey_normal_01.png
+  artifactKey: Guid(c7dee793901f63b4ab2742389d564e7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project_R/Object/Bigger/blockkey_normal_01.png using Guid(c7dee793901f63b4ab2742389d564e7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b59661425004030baf7081638af52406') in 0.094012 seconds 
+  Import took 0.097295 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000252 seconds.
+  path: Assets/Project_R/Object/Bigger/spike_03.png
+  artifactKey: Guid(ef15e29737ff34f45afde5476bec2a01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project_R/Object/Bigger/spike_03.png using Guid(ef15e29737ff34f45afde5476bec2a01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45d43527b6ff25dadd44bfb79ea3d625') in 0.077089 seconds 
+  Import took 0.080494 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000310 seconds.
+  path: Assets/Project_R/Object/Bigger/flame_start_01.png
+  artifactKey: Guid(cbd811f7a678e3d4487f7ab206adf097) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project_R/Object/Bigger/flame_start_01.png using Guid(cbd811f7a678e3d4487f7ab206adf097) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5711996f426125341fbc5d72abdb29f') in 0.073635 seconds 
+  Import took 0.076768 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000320 seconds.
+  path: Assets/Project_Ratna/Animations/ratnaDie/ratnaDie.anim
+  artifactKey: Guid(d9a0283afd136dd4b826904a21f36c12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project_Ratna/Animations/ratnaDie/ratnaDie.anim using Guid(d9a0283afd136dd4b826904a21f36c12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8429f751f8b7ac8bf662fe8a779cb37b') in 0.056252 seconds 
+  Import took 0.060931 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000322 seconds.
+  path: Assets/Project_R/Object/Bigger/bouncer_on_bouncing_01.png
+  artifactKey: Guid(0b14bfc3eeb37f34189122bd1328921c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project_R/Object/Bigger/bouncer_on_bouncing_01.png using Guid(0b14bfc3eeb37f34189122bd1328921c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e1a5b976bcfd133264dada10db7cf66') in 0.086693 seconds 
+  Import took 0.090552 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000319 seconds.
+  path: Assets/Project_R/Object/Bigger/checkpoint_active_01.png
+  artifactKey: Guid(3a67c49bea21d0b4c9ec86e4ee020c94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project_R/Object/Bigger/checkpoint_active_01.png using Guid(3a67c49bea21d0b4c9ec86e4ee020c94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56d1a067690e6d4f22d5b7c9ab317e2c') in 0.138774 seconds 
+  Import took 0.142037 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000289 seconds.
+  path: Assets/Project_R/Object/Bigger/dashzone_path_on_01.png
+  artifactKey: Guid(ef0718d2c4c2560449fe06dd5e7a2001) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project_R/Object/Bigger/dashzone_path_on_01.png using Guid(ef0718d2c4c2560449fe06dd5e7a2001) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '286d282513c8636576eb002ee0745702') in 0.063913 seconds 
+  Import took 0.102103 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000284 seconds.
+  path: Assets/Project_R/Object/Bigger/flameplace_on_01.png
+  artifactKey: Guid(589719efb51910e478998122994602f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project_R/Object/Bigger/flameplace_on_01.png using Guid(589719efb51910e478998122994602f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '657a7dfd9851b227dd15862b4907a4da') in 0.084599 seconds 
+  Import took 0.087521 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000279 seconds.
+  path: Assets/Project_R/Object/Bigger/checkpoint_idle_01.png
+  artifactKey: Guid(3910d47d0ec7d4e4c9feeac4901da4e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project_R/Object/Bigger/checkpoint_idle_01.png using Guid(3910d47d0ec7d4e4c9feeac4901da4e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60b6adc821b3672f4a6fcaeeee123ae1') in 0.109082 seconds 
+  Import took 0.125987 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000293 seconds.
+  path: Assets/Project_R/Object/Bigger/flameplace_off_01.png
+  artifactKey: Guid(95725f72ffce3714daf56e5449336cb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project_R/Object/Bigger/flameplace_off_01.png using Guid(95725f72ffce3714daf56e5449336cb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8354feef1e4d14f170fefcbf56ba5046') in 0.153441 seconds 
+  Import took 0.157292 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000292 seconds.
+  path: Assets/Project_R/Object/Bigger/spikeplace_on_02.png
+  artifactKey: Guid(b70d76e8f95e97141b52f2eff11af559) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project_R/Object/Bigger/spikeplace_on_02.png using Guid(b70d76e8f95e97141b52f2eff11af559) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46864cda1d6f9ff15accfd144c132d94') in 0.147717 seconds 
+  Import took 0.152113 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000269 seconds.
+  path: Assets/Project_R/Object/Bigger/spike_01.png
+  artifactKey: Guid(c69c89105dddb9349934a3565dfa5d17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project_R/Object/Bigger/spike_01.png using Guid(c69c89105dddb9349934a3565dfa5d17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10dfcafdb67c92f961ef60d912a6b99a') in 0.095934 seconds 
+  Import took 0.105188 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000919 seconds.
+  path: Assets/Project_R/Object/Bigger/button_on_01.png
+  artifactKey: Guid(f2bc14d0a80f6ca448ae387db5fcae17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project_R/Object/Bigger/button_on_01.png using Guid(f2bc14d0a80f6ca448ae387db5fcae17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53bcff5f913e2c795e1a5fda6a9dea0e') in 0.072628 seconds 
+  Import took 0.080217 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000271 seconds.
+  path: Assets/Project_R/Object/Bigger/bouncer_on_01.png
+  artifactKey: Guid(ebf1cd2bd60416d44a7eb720faabcf84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project_R/Object/Bigger/bouncer_on_01.png using Guid(ebf1cd2bd60416d44a7eb720faabcf84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69aca89ac7cf61336656b382af721d90') in 0.064596 seconds 
+  Import took 0.078421 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000282 seconds.
+  path: Assets/Project_R/Object/Bigger/gateblock_topright_01.png
+  artifactKey: Guid(4a4e10ddeded7404a9f7b7f5235b8aa6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project_R/Object/Bigger/gateblock_topright_01.png using Guid(4a4e10ddeded7404a9f7b7f5235b8aa6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2717509f1b8ca7e3b200d499eddeb894') in 0.050246 seconds 
+  Import took 0.058882 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000286 seconds.
+  path: Assets/Project_R/Object/Bigger/gateblock_topright_02.png
+  artifactKey: Guid(a40fa54189c9a6040915c8ff787740b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project_R/Object/Bigger/gateblock_topright_02.png using Guid(a40fa54189c9a6040915c8ff787740b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b70c3f032b8d10b676ada27e245e8b0') in 0.062731 seconds 
+  Import took 0.066520 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000276 seconds.
+  path: Assets/Project_R/Object/Bigger/flameplace_on_02.png
+  artifactKey: Guid(49ad4a04cc89d94438f06ba9a78b31a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project_R/Object/Bigger/flameplace_on_02.png using Guid(49ad4a04cc89d94438f06ba9a78b31a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '701b8627124823833ee537a17b62b0de') in 0.094655 seconds 
+  Import took 0.097812 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000279 seconds.
+  path: Assets/Project_R/Object/Bigger/bouncer_off_01.png
+  artifactKey: Guid(b36aa0b96ea03254faccdce2504b455f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project_R/Object/Bigger/bouncer_off_01.png using Guid(b36aa0b96ea03254faccdce2504b455f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd341948b5047d18918b532c920931668') in 0.064914 seconds 
+  Import took 0.081216 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000328 seconds.
+  path: Assets/Project_R/Object/Bigger/spikeplace_off_02.png
+  artifactKey: Guid(ffd47ba86e7594940871b9b0ac358666) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project_R/Object/Bigger/spikeplace_off_02.png using Guid(ffd47ba86e7594940871b9b0ac358666) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31b188365060332862a4963099d78e6c') in 0.098533 seconds 
+  Import took 0.102505 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000303 seconds.
+  path: Assets/Project_R/Object/Bigger/blockkey_purple_01.png
+  artifactKey: Guid(b12541d8466af964b947e5c4ae75d1ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project_R/Object/Bigger/blockkey_purple_01.png using Guid(b12541d8466af964b947e5c4ae75d1ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b13d5e71e7c6020e670f8e3df9b4ca9') in 0.055062 seconds 
+  Import took 0.058476 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000335 seconds.
+  path: Assets/Project_R/Object/Bigger/flame_idle_01.png
+  artifactKey: Guid(c16a716d00566a64a92008fbb018be79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project_R/Object/Bigger/flame_idle_01.png using Guid(c16a716d00566a64a92008fbb018be79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c295a8bf28c2a3b6a48a99088ea5d0d') in 0.055145 seconds 
+  Import took 0.058969 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000290 seconds.
+  path: Assets/Project_R/Object/Bigger/gate_horizontal_02.png
+  artifactKey: Guid(c490157ad947c9a4f99eca68e65248bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project_R/Object/Bigger/gate_horizontal_02.png using Guid(c490157ad947c9a4f99eca68e65248bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8e968de8f2891cf8bd7376a3988f61f') in 0.028942 seconds 
+  Import took 0.033214 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000322 seconds.
+  path: Assets/Project_R/Object/Bigger/blockkeyhole_off_02.png
+  artifactKey: Guid(81e38d893ac300c45949393c05d5bb3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project_R/Object/Bigger/blockkeyhole_off_02.png using Guid(81e38d893ac300c45949393c05d5bb3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3294bbd79fbc7c49a42ebe1e556d6314') in 0.075681 seconds 
+  Import took 0.078905 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000222 seconds.
+  path: Assets/Project_R/Object/Bigger/gateblock_left_01.png
+  artifactKey: Guid(e2009155a062083429c82cdfe6e4c944) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project_R/Object/Bigger/gateblock_left_01.png using Guid(e2009155a062083429c82cdfe6e4c944) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '697c903ce5dcbbe4580fd39006b9aa3e') in 0.021028 seconds 
+  Import took 0.024159 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000275 seconds.
+  path: Assets/Project_R/Object/Bigger/block_normal_01.png
+  artifactKey: Guid(651aefed3806c364f8d11c3285f9b174) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project_R/Object/Bigger/block_normal_01.png using Guid(651aefed3806c364f8d11c3285f9b174) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f9d933d82f006a6cea3693476c29312') in 0.033540 seconds 
+  Import took 0.036922 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000325 seconds.
+  path: Assets/Project_R/Object/Bigger/blockkey_access_01.png
+  artifactKey: Guid(06a2abac27c30df4b9da6263ed0b11f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project_R/Object/Bigger/blockkey_access_01.png using Guid(06a2abac27c30df4b9da6263ed0b11f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe8aea0b3048701e51d1ec9f7538e078') in 0.046069 seconds 
+  Import took 0.049949 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000307 seconds.
+  path: Assets/Project_R/Object/Bigger/blockkeyhole_off_01.png
+  artifactKey: Guid(5b11ef6d2be45e34f8dd2bfb2e84e8d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project_R/Object/Bigger/blockkeyhole_off_01.png using Guid(5b11ef6d2be45e34f8dd2bfb2e84e8d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b958dbd28679157ca7a30b7bee5e137') in 0.103606 seconds 
+  Import took 0.107091 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000289 seconds.
+  path: Assets/Project_R/Object/Bigger/gateblock_topleft_02.png
+  artifactKey: Guid(d4a9e117417a49144bae6c886d09e429) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project_R/Object/Bigger/gateblock_topleft_02.png using Guid(d4a9e117417a49144bae6c886d09e429) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c588b971c6cb6a074949be4e61e3d161') in 0.036735 seconds 
+  Import took 0.040705 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000285 seconds.
+  path: Assets/Project_R/Object/Bigger/blockkeyhole_on_02.png
+  artifactKey: Guid(4f61e29dfec12784cbbabedc7f0ca4df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project_R/Object/Bigger/blockkeyhole_on_02.png using Guid(4f61e29dfec12784cbbabedc7f0ca4df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd877c8928cf384294af061cc9d6e021') in 0.042611 seconds 
+  Import took 0.046440 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000285 seconds.
+  path: Assets/Project_R/Object/Bigger/block_purple_01.png
+  artifactKey: Guid(5fa7d93dbae06aa43b34156c2b9b9a9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project_R/Object/Bigger/block_purple_01.png using Guid(5fa7d93dbae06aa43b34156c2b9b9a9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0902415f63011163265b9804cd907e50') in 0.045432 seconds 
+  Import took 0.049746 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000344 seconds.
+  path: Assets/Project_R/Object/Bigger/flame_splash_01.png
+  artifactKey: Guid(aea94d3ae86697e4eac1f28fd127ffb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project_R/Object/Bigger/flame_splash_01.png using Guid(aea94d3ae86697e4eac1f28fd127ffb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '857e1a2a35bc36a5b8865a8273107409') in 0.042381 seconds 
+  Import took 0.046722 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000265 seconds.
+  path: Assets/Project_R/Object/Bigger/gate_horizontal_01.png
+  artifactKey: Guid(afe227f2afe8fd84f96bf1264bc2aeaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project_R/Object/Bigger/gate_horizontal_01.png using Guid(afe227f2afe8fd84f96bf1264bc2aeaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03fff2ff686f74076eca4fa1d62e6909') in 0.106507 seconds 
+  Import took 0.137754 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000307 seconds.
+  path: Assets/Project_R/Object/Bigger/gateblock_bottom_01.png
+  artifactKey: Guid(aa408b1cefd1e6c468a9925d5f8eaaba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project_R/Object/Bigger/gateblock_bottom_01.png using Guid(aa408b1cefd1e6c468a9925d5f8eaaba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd94bb5ed63a72a5d840bfa202d181607') in 0.030664 seconds 
+  Import took 0.046721 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000320 seconds.
+  path: Assets/Project_R/Object/Bigger/dashzone_arrow_on_01.png
+  artifactKey: Guid(aa314c6c8025c084bb2521505e6fcd21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project_R/Object/Bigger/dashzone_arrow_on_01.png using Guid(aa314c6c8025c084bb2521505e6fcd21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b537c89befdb423c9e596105a612af3') in 0.032248 seconds 
+  Import took 0.035877 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000305 seconds.
+  path: Assets/Project_R/Object/Bigger/button_off_01.png
+  artifactKey: Guid(31c3643475427db42801662ebc3a9673) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project_R/Object/Bigger/button_off_01.png using Guid(31c3643475427db42801662ebc3a9673) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fc1c48b0b790d744249fec64205ff4e') in 0.043540 seconds 
+  Import took 0.047435 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000270 seconds.
+  path: Assets/Project_R/Object/Bigger/flameplace_off_02.png
+  artifactKey: Guid(2b0d699ecd974924c91a1e0e45cbd653) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project_R/Object/Bigger/flameplace_off_02.png using Guid(2b0d699ecd974924c91a1e0e45cbd653) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1838b5b5d79344b43bce0a5e1931869') in 0.040396 seconds 
+  Import took 0.073737 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000295 seconds.
+  path: Assets/Project_R/Object/Bigger/gateblock_top_02.png
+  artifactKey: Guid(9af74bb7e664a6e429147f7686175fa6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project_R/Object/Bigger/gateblock_top_02.png using Guid(9af74bb7e664a6e429147f7686175fa6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f36c71ee52ec74fb63a0fb136a61b17') in 0.074270 seconds 
+  Import took 0.084456 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.796433 seconds.
+  path: Assets/Project_Ratna/Character/Ratna/Bigger/ratna_dash_01.png
+  artifactKey: Guid(9a446e6c0ce5aa44b8125b619de3aa19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project_Ratna/Character/Ratna/Bigger/ratna_dash_01.png using Guid(9a446e6c0ce5aa44b8125b619de3aa19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01eedcfdce5ed62d9f7805b492a3a631') in 0.087809 seconds 
+  Import took 0.099962 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000311 seconds.
+  path: Assets/Project_Ratna/Character/Ratna/Bigger/ratna_idle_01.png
+  artifactKey: Guid(719fa921372d4904184f0f99279b3569) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project_Ratna/Character/Ratna/Bigger/ratna_idle_01.png using Guid(719fa921372d4904184f0f99279b3569) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35c8364d0e16677e25c281f26c51796a') in 0.074613 seconds 
+  Import took 0.095353 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000329 seconds.
+  path: Assets/Project_Ratna/Character/Ratna/Bigger/ratna_push_01.png
+  artifactKey: Guid(dd8056e98589ed94a9efc36221f7c1ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project_Ratna/Character/Ratna/Bigger/ratna_push_01.png using Guid(dd8056e98589ed94a9efc36221f7c1ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55678c979873b0cac6a1944c1b455a95') in 0.089512 seconds 
+  Import took 0.092830 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000289 seconds.
+  path: Assets/Project_Ratna/Character/Ratna/Bigger/ratna_doublejump_01.png
+  artifactKey: Guid(899cc9ec722056a4c9d06fa076244e4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project_Ratna/Character/Ratna/Bigger/ratna_doublejump_01.png using Guid(899cc9ec722056a4c9d06fa076244e4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ef8741d46c027dbe5d1095e531aec50') in 0.060221 seconds 
+  Import took 0.076890 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000275 seconds.
+  path: Assets/Project_Ratna/Character/Ratna/Bigger/ratna_pushidle_01.png
+  artifactKey: Guid(50bb42a9dd38458448e32bd1937a2640) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project_Ratna/Character/Ratna/Bigger/ratna_pushidle_01.png using Guid(50bb42a9dd38458448e32bd1937a2640) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '359266ccf1ca6f317127f7cd1bad4839') in 0.120755 seconds 
+  Import took 0.123987 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000271 seconds.
+  path: Assets/Project_Ratna/Character/Ratna/Bigger/ratna_died_01.png
+  artifactKey: Guid(17827fc50e906eb4da11e99396bb9ffa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project_Ratna/Character/Ratna/Bigger/ratna_died_01.png using Guid(17827fc50e906eb4da11e99396bb9ffa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '057ad89818f0429c961dab0db6787337') in 0.109568 seconds 
+  Import took 0.150806 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000337 seconds.
+  path: Assets/Project_Ratna/Character/Ratna/Bigger/Square.png
+  artifactKey: Guid(a592131a3a97b90489ee671e09238fdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project_Ratna/Character/Ratna/Bigger/Square.png using Guid(a592131a3a97b90489ee671e09238fdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3edcdfbe64618d84a895c4886a44fe22') in 0.027351 seconds 
+  Import took 0.030453 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000330 seconds.
+  path: Assets/Project_Ratna/Character/Ratna/Bigger/ratna_dashair_01.png
+  artifactKey: Guid(705d9d8fdd1dc3b42a2417aac53102d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project_Ratna/Character/Ratna/Bigger/ratna_dashair_01.png using Guid(705d9d8fdd1dc3b42a2417aac53102d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c19eadc6a66cc3811047d6575888b101') in 0.050822 seconds 
+  Import took 0.055182 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000300 seconds.
+  path: Assets/Project_Ratna/Character/Ratna/Bigger/ratna_gravityshift_01.png
+  artifactKey: Guid(824b378d03a9a714c86651c5b1c9f31e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project_Ratna/Character/Ratna/Bigger/ratna_gravityshift_01.png using Guid(824b378d03a9a714c86651c5b1c9f31e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0acaa4a5dd7237e0f1e2b2d7300e1992') in 0.048836 seconds 
+  Import took 0.061543 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000323 seconds.
+  path: Assets/Project_Ratna/Character/Ratna/Bigger/ratna_respawn_01.png
+  artifactKey: Guid(177d3ef9ae38ee1449d90be2fd305b0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project_Ratna/Character/Ratna/Bigger/ratna_respawn_01.png using Guid(177d3ef9ae38ee1449d90be2fd305b0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3cb7c187901980b3ab0cac82ddee132d') in 0.084757 seconds 
+  Import took 0.088648 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000295 seconds.
+  path: Assets/Project_Ratna/Character/Ratna/ratna_pushidle_01.png
+  artifactKey: Guid(1c49b461b46fadf44af40372cefaf4d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project_Ratna/Character/Ratna/ratna_pushidle_01.png using Guid(1c49b461b46fadf44af40372cefaf4d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7ab47445b77ffc89710e0f58b91ee07') in 0.048242 seconds 
+  Import took 0.062965 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000283 seconds.
+  path: Assets/Project_Ratna/Character/Ratna/ratna_jump_01.png
+  artifactKey: Guid(a5ec9332a700def47bbdaed8055303a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project_Ratna/Character/Ratna/ratna_jump_01.png using Guid(a5ec9332a700def47bbdaed8055303a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb8fc47ea244f79687cdde78a908073b') in 0.018085 seconds 
+  Import took 0.022296 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000328 seconds.
+  path: Assets/Project_Ratna/Character/Ratna/ratna_respawn_01.png
+  artifactKey: Guid(c1e77a254116d004f9ca103f11a6ad5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project_Ratna/Character/Ratna/ratna_respawn_01.png using Guid(c1e77a254116d004f9ca103f11a6ad5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '964713ab13b31680ab823975f0756296') in 0.038300 seconds 
+  Import took 0.052201 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000293 seconds.
+  path: Assets/Project_Ratna/Character/Ratna/ratna_push_01.png
+  artifactKey: Guid(ffc571eef91419643ba62ae75934c511) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project_Ratna/Character/Ratna/ratna_push_01.png using Guid(ffc571eef91419643ba62ae75934c511) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f18b3d413fb4f860280e939871cadb00') in 0.053314 seconds 
+  Import took 0.056847 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000253 seconds.
+  path: Assets/Project_Ratna/Character/Ratna/ratna_hurt_01.png
+  artifactKey: Guid(bd7af152ca8f7194194cb66346137679) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project_Ratna/Character/Ratna/ratna_hurt_01.png using Guid(bd7af152ca8f7194194cb66346137679) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95ee0224dcb81d2c24aa36099f363a2b') in 0.043250 seconds 
+  Import took 0.046771 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000316 seconds.
+  path: Assets/Project_Ratna/Character/Ratna/ratna_died_01.png
+  artifactKey: Guid(a97aba6a1c326da4ea0d14374a110d5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project_Ratna/Character/Ratna/ratna_died_01.png using Guid(a97aba6a1c326da4ea0d14374a110d5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da9c117e03457663c5674f2d73bed047') in 0.025871 seconds 
+  Import took 0.029815 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000312 seconds.
+  path: Assets/Project_Ratna/Character/Ratna/ratna_doublejump_01.png
+  artifactKey: Guid(c643ac814aa1d444482b5cea739e0643) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project_Ratna/Character/Ratna/ratna_doublejump_01.png using Guid(c643ac814aa1d444482b5cea739e0643) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c6d1e1fdab805a8ba695e51161add52') in 0.023821 seconds 
+  Import took 0.037175 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000278 seconds.
+  path: Assets/Project_Ratna/Character/Ratna/ratna_idle_01.png
+  artifactKey: Guid(6ac24ecd755d91a458cc1a8f38d6aca7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project_Ratna/Character/Ratna/ratna_idle_01.png using Guid(6ac24ecd755d91a458cc1a8f38d6aca7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f0d8be3db835d85fa960b35dcf282af') in 0.083869 seconds 
+  Import took 0.098644 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000349 seconds.
+  path: Assets/Project_Ratna/Character/Ratna/ratna_gravityshift_01.png
+  artifactKey: Guid(966423e2621597b4ba94c94a72859499) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project_Ratna/Character/Ratna/ratna_gravityshift_01.png using Guid(966423e2621597b4ba94c94a72859499) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb45fed1efd9024183e604cb6ee26962') in 0.041095 seconds 
+  Import took 0.044242 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000314 seconds.
+  path: Assets/Project_Ratna/Character/Ratna/Bigger/ratna_landing_01.png
+  artifactKey: Guid(5f448c3d7b028a248be26598adf74142) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project_Ratna/Character/Ratna/Bigger/ratna_landing_01.png using Guid(5f448c3d7b028a248be26598adf74142) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e60b5c2072e339612ab5d6b6ef0aa93') in 0.034912 seconds 
+  Import took 0.038781 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000334 seconds.
+  path: Assets/Project_Ratna/Character/Ratna/ratna_jumpforward_01.png
+  artifactKey: Guid(035d9487981270c47818d2242f9059d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project_Ratna/Character/Ratna/ratna_jumpforward_01.png using Guid(035d9487981270c47818d2242f9059d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '291821f387ce907d142721d16ae9659d') in 0.024786 seconds 
+  Import took 0.034560 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000373 seconds.
+  path: Assets/Project_Ratna/Character/Ratna/Bigger/ratna_jumpforward_01.png
+  artifactKey: Guid(f3dd18a3f2577da40b1d7a2731628ac7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project_Ratna/Character/Ratna/Bigger/ratna_jumpforward_01.png using Guid(f3dd18a3f2577da40b1d7a2731628ac7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ab4a87dce5b6aa2e3395f24e85cba04') in 0.066141 seconds 
+  Import took 0.069706 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000294 seconds.
+  path: Assets/Project_Ratna/Character/Ratna/Bigger/ratna_jump_01.png
+  artifactKey: Guid(997611b302f4c4e46b2e7aae00435f01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project_Ratna/Character/Ratna/Bigger/ratna_jump_01.png using Guid(997611b302f4c4e46b2e7aae00435f01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '940ea7f8b68304217bec2d4cadc91ca0') in 0.037694 seconds 
+  Import took 0.052192 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000285 seconds.
+  path: Assets/Project_Ratna/Character/Ratna/Bigger/ratna_run_01.png
+  artifactKey: Guid(6a940b0a84ff930479cc4b6054515655) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project_Ratna/Character/Ratna/Bigger/ratna_run_01.png using Guid(6a940b0a84ff930479cc4b6054515655) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd8398e5b2d6d7febc00ee1656ccd687') in 0.074421 seconds 
+  Import took 0.077875 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000211 seconds.
+  path: Assets/Project_Ratna/Character/Ratna/ratna_run_01.png
+  artifactKey: Guid(f82c2a28d913511409688a642c2536a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project_Ratna/Character/Ratna/ratna_run_01.png using Guid(f82c2a28d913511409688a642c2536a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2bdf573ea78279b1bc917a51e4f8c62d') in 0.079554 seconds 
+  Import took 0.094917 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000272 seconds.
+  path: Assets/Project_Ratna/Character/Ratna/ratna_landing_01.png
+  artifactKey: Guid(f45f27a0c585e934eb45f3f080419620) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project_Ratna/Character/Ratna/ratna_landing_01.png using Guid(f45f27a0c585e934eb45f3f080419620) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d3ee0e2447de470e548557bc6737fcd') in 0.053337 seconds 
+  Import took 0.056986 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000306 seconds.
+  path: Assets/Project_Ratna/Character/Ratna/Bigger/ratna_smashlanding_01.png
+  artifactKey: Guid(3dbd5b0aeee6c0b4aa5b0f21e005a7cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project_Ratna/Character/Ratna/Bigger/ratna_smashlanding_01.png using Guid(3dbd5b0aeee6c0b4aa5b0f21e005a7cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc474525d98d332958a17c32755a8516') in 0.080840 seconds 
+  Import took 0.085074 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000323 seconds.
+  path: Assets/Project_Ratna/Character/Ratna/ratna_smashfall_01.png
+  artifactKey: Guid(df9b046dfbbcb474ba0fdb0b56f78665) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project_Ratna/Character/Ratna/ratna_smashfall_01.png using Guid(df9b046dfbbcb474ba0fdb0b56f78665) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd76365c202861c324d52ee035f9c6a41') in 0.028749 seconds 
+  Import took 0.033171 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000313 seconds.
+  path: Assets/Project_Ratna/Character/Ratna/ratna_smashlanding_01.png
+  artifactKey: Guid(ca114c432a2b59d4aba698ad4290cb07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project_Ratna/Character/Ratna/ratna_smashlanding_01.png using Guid(ca114c432a2b59d4aba698ad4290cb07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '729d5beb6fa4e682e72f154267bdb021') in 0.057167 seconds 
+  Import took 0.060729 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000310 seconds.
+  path: Assets/Project_Ratna/Character/Ratna/ratna_dashair_01.png
+  artifactKey: Guid(7b6326dc37abe3f4698da0eb1c25c2ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project_Ratna/Character/Ratna/ratna_dashair_01.png using Guid(7b6326dc37abe3f4698da0eb1c25c2ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0b533bb796f9a89e8fc8c74c2b97503') in 0.018934 seconds 
+  Import took 0.023307 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000262 seconds.
+  path: Assets/Project_Ratna/Character/Ratna/Bigger/ratna_fall_01.png
+  artifactKey: Guid(020bdfd1fe8f1634781046b779b9eece) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project_Ratna/Character/Ratna/Bigger/ratna_fall_01.png using Guid(020bdfd1fe8f1634781046b779b9eece) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df6462b6cb1def565e73a5328e775e23') in 0.042460 seconds 
+  Import took 0.046591 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000235 seconds.
+  path: Assets/Project_Ratna/Character/Ratna/ratna_dash_01.png
+  artifactKey: Guid(abc3e7812e69f904d93fb8552d223dba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project_Ratna/Character/Ratna/ratna_dash_01.png using Guid(abc3e7812e69f904d93fb8552d223dba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69b811a7ed55000abd66025636c81f7a') in 0.025820 seconds 
+  Import took 0.030405 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000301 seconds.
+  path: Assets/Project_Ratna/Character/Ratna/Bigger/ratna_smashfall_01.png
+  artifactKey: Guid(a12b8b511f8e1924fb81f165084c8620) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project_Ratna/Character/Ratna/Bigger/ratna_smashfall_01.png using Guid(a12b8b511f8e1924fb81f165084c8620) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2124536f936b75c9b21137a34e98e7b') in 0.094754 seconds 
+  Import took 0.098947 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000327 seconds.
+  path: Assets/Project_Ratna/Character/Ratna/ratna_fall_01.png
+  artifactKey: Guid(3c1863197f643e04b97af561ef281f9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project_Ratna/Character/Ratna/ratna_fall_01.png using Guid(3c1863197f643e04b97af561ef281f9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '239dfa5990dc704c67fd308ae7e222a3') in 0.050481 seconds 
+  Import took 0.055257 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000253 seconds.
+  path: Assets/Project_Ratna/Character/Ratna/Bigger/ratna_hurt_01.png
+  artifactKey: Guid(4861f23a682161c468cefafe6f3d07d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Project_Ratna/Character/Ratna/Bigger/ratna_hurt_01.png using Guid(4861f23a682161c468cefafe6f3d07d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1ba0ba9d57a577367f28e1bdc67bd61') in 0.035709 seconds 
+  Import took 0.039120 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file

@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/RatnaMenu.unity
+    guid: b3c45ab98435dc14aa85cdb060f8932a
+  - enabled: 1
+    path: Assets/Scenes/Stage_1.unity
+    guid: 190653b8200a22a4ea09e3c2b25b481c
+  - enabled: 1
+    path: Assets/Scenes/RatnaTestStage.unity
+    guid: e5127235442f4d542945454d80ac4c43
+  m_configObjects: {}

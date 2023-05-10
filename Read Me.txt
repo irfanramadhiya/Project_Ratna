@@ -1,0 +1,30 @@
+Project Ratna Alpha Build
+
+New Addition :
+- Fixed Jump & Slam problem after shifting gravity
+- Dash move completed
+- Slam move 90% completed
+- Pushing ability to blocks
+- Main Menu, Options Menu, Pause Menu, Instructions
+- Death Mechanics & Game Over Menu
+- Checkpoints mechanics
+
+Known Problems :
+- Falling animation OP
+- Movements are still a little bit buggy
+- GravShift animation OP
+- Out Of Map Death not added yet
+
+To Add Later :
+- Team Unferth's Original Soundtracks
+- Sound FX
+- Original Menu Design
+- Story??
+- Implementation with 2nd Knight's Environment Scripts
+
+
+Alpha Build Game is available to play or test
+Go to BuildRun -> Alpha Game -> TestGame -> Project_Ratna
+
+- Michael
+"le knight"
